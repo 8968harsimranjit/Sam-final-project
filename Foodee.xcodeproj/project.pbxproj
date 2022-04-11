@@ -18,6 +18,7 @@
 		4EBF60E026FA7523005AF26F /* ExtensionKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4EBF60DF26FA7523005AF26F /* ExtensionKit */; };
 		4EBF60E526FA75FB005AF26F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBF60E426FA75FB005AF26F /* HomeView.swift */; };
 		4ECB105E26FCC47100DBBFFD /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECB105D26FCC47100DBBFFD /* Font.swift */; };
+		CAFAD69C2803D10C00DFF6EA /* YelpApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFAD69B2803D10C00DFF6EA /* YelpApiService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		4ECB105B26FCC40600DBBFFD /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		4ECB105C26FCC44500DBBFFD /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
 		4ECB105D26FCC47100DBBFFD /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		CAFAD69B2803D10C00DFF6EA /* YelpApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpApiService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 		4EBF60C326FA6EC2005AF26F /* Foodee */ = {
 			isa = PBXGroup;
 			children = (
+				CAFAD69A2803D0AB00DFF6EA /* Services */,
 				4ECB105C26FCC44500DBBFFD /* Poppins-Medium.ttf */,
 				4ECB105B26FCC40600DBBFFD /* Poppins-Regular.ttf */,
 				4ECB105A26FCC40600DBBFFD /* Poppins-SemiBold.ttf */,
@@ -141,6 +144,14 @@
 				4EBF60E426FA75FB005AF26F /* HomeView.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		CAFAD69A2803D0AB00DFF6EA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CAFAD69B2803D10C00DFF6EA /* YelpApiService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EBF60DD26FA74BA005AF26F /* CGFloat.swift in Sources */,
+				CAFAD69C2803D10C00DFF6EA /* YelpApiService.swift in Sources */,
 				4E60B17D26FB54A000497F05 /* FoodCategories.swift in Sources */,
 				4ECB105E26FCC47100DBBFFD /* Font.swift in Sources */,
 				4EBF60D926FA71E9005AF26F /* String.swift in Sources */,
